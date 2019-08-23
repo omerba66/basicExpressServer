@@ -1,0 +1,38 @@
+{
+  "name": "finalex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node --presets babel-preset-env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "dotenv-extended": "^2.4.0",
+    "email-address": "^1.2.2",
+    "express": "^4.17.1",
+    "express-async-router": "^0.1.15",
+    "express-json-error-handler": "^3.0.0",
+    "express-validator": "^6.1.1",
+    "lib": "^4.0.4",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.9",
+    "mongoose-plugin-seed": "^0.4.0",
+    "mongoose-readonly": "^1.0.2",
+    "mongoose-type-email": "^1.0.11",
+    "pify": "^4.0.1",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.1.0",
+    "nodemon": "^1.19.1"
+  }
+}
