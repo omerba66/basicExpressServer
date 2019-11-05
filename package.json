@@ -20,7 +20,7 @@
     "express-validator": "^6.1.1",
     "lib": "^4.0.4",
     "lodash": "^4.17.15",
-    "mongoose": "^5.6.9",
+    "mongoose": "^5.7.5",
     "mongoose-plugin-seed": "^0.4.0",
     "mongoose-readonly": "^1.0.2",
     "mongoose-type-email": "^1.0.11",
